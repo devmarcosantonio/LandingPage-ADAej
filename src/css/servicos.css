@@ -1,0 +1,25 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.title-servicos{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.container-servicos{
+    padding: 5%;
+    display: flex;
+    font-size: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: baseline;
+    gap: 30px;
+}
+.container-servicos img{
+    width: 300px;
+    height: 100%;
+}

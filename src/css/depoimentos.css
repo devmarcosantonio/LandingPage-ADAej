@@ -1,0 +1,78 @@
+.page_depoimentos{
+    background-color: #28338C ;
+    height: 100vh;
+}
+
+.title_depoimentos{
+    text-align: center;
+    padding-top: 64px;
+    font-size: 3rem;
+    color: white;
+}
+
+.container_depoimentos{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_depoimentos .title_depoimentos{
+    display: block;
+}
+
+.item_depoimentos{
+    background-color: white;
+    color: gray;
+
+    padding: 2rem;
+    max-width: 280px;
+    height: 348px;
+    margin: 12px;
+
+    border-radius: 2rem;
+}
+
+.header_itemdepoimentos{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.picture_depoimentos{
+    margin-right: 1rem;
+}
+
+.picture_depoimentos{
+    background-color: gray;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 2rem;
+}
+
+.name_nick_item_depoimentos h3{
+    color: black;
+    font-size: 1.20rem;
+}
+
+.container_depoimentos p{
+    line-height: 1.5;
+}
+
+@media (max-width: 690px) {
+   .page_depoimentos{
+    height: 120vh;
+   }
+  .container_depoimentos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .title_depoimentos{
+    padding-top: 22px;
+    padding-bottom: 0px;
+  }
+  .item_depoimentos{
+    height: 200px;
+  }
+}

@@ -1,0 +1,30 @@
+.title_parceiros{
+  color: black;
+}
+
+.container_parceiros{
+  display: flex;
+  justify-content:center;
+  margin-top: 64px;
+  margin-bottom: 200px; 
+}
+
+.item_parceiros{
+ width: 300px;
+ height: 300px;
+ margin: auto;
+ background-color: #9fa2b0;
+ border-radius: 2rem;
+}
+
+
+@media (max-width: 690px) {
+  .container_parceiros{
+      display: flex;
+      justify-content:center;
+      flex-direction: column;
+  }
+  .item_parceiros{
+      margin: 1rem auto;
+  }
+}
