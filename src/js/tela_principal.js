@@ -1,5 +1,5 @@
 const textElement = document.getElementById('changingText');
-const texts = ["davi", "lucas", "pedro"];
+const texts = ["Oportunidades não surgem. É você que as cria", "Comece de onde você está. Use o que você tiver. Faça o que você puder"];
 let index = 0;
 let charIndex = 0;
 
@@ -11,7 +11,7 @@ function typeText() {
     charIndex++;
 
     if (charIndex < currentText.length) {
-        setTimeout(typeText, 100); // Velocidade de digitação
+        setTimeout(typeText, 75); // Velocidade de digitação
     } else {
         charIndex = 0;
         setTimeout(eraseText, 2000); // Tempo de pausa antes de apagar o texto

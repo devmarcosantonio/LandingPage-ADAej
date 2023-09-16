@@ -18,8 +18,8 @@
     overflow: hidden;
     mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
     -webkit-mask-image: linear-gradient(to bottom, transparent 20%, black 80%);
-    color: violet;
-    font-size: 24px;
+    color: #27348B;
+    font-size: 30px;
     white-space: nowrap;
 }
 .barra-digitacao {

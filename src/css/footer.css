@@ -1,0 +1,15 @@
+footer {
+  bottom: 0;
+  background-color: #27348b;
+  width: 100%;
+  height: auto;    
+  text-align: center;
+  line-height: 80px;    
+}
+.es{
+text-align: left;
+border-right: 100px;
+color: #6068ae;
+margin-left: 50px;
+font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
