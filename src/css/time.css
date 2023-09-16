@@ -1,0 +1,233 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 16px;
+    
+  }
+
+
+
+
+
+.page_time{
+    background-color: #28338C ;
+    height: 220vh;
+}
+.title_time{
+        display: block;
+        text-align: center;
+        padding-top: 64px;
+        font-size: 3rem;
+        color: white;
+    
+}
+.gallery-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+.item{
+    margin: 20px;
+    padding: 60px;
+}
+.photo_member{
+    max-width: 290px;
+    height: 290px;
+    background-color: #9fa2b0;
+    border-radius: 1rem;
+}
+.name_member{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin-top: 1rem;
+}
+.description{
+    color: grey;
+    font-size:1.25rem;
+    padding: 10px;
+    max-width: 250px;
+
+}
+.arrow-left,.arrow-right{
+    display: none;
+}
+
+
+
+@media screen and (min-width:768px) and (max-width:1024px){
+    
+  .page_time{
+      height: 120vh;
+  }
+
+  .container {
+      position: fixed;
+      padding: 0px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .gallery-wrapper {
+      overflow-x: auto;
+      display: flex;
+      height: 100vh;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      gap: 5px;
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+    }
+    
+    .arrow-left,
+    .arrow-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      font-size: 16px;
+      line-height: 250px;
+      width: 60px;
+      color: #fff;
+      transition: all 600ms ease-in-out;
+      background: linear-gradient(to left, transparent 0%, black 200%);
+      opacity: 0.1;
+      cursor: pointer;
+      border: none;
+      display: block;
+
+    }
+    
+    .arrow-left:hover,
+    .arrow-right:hover {
+      opacity: 1;
+    }
+    
+    .arrow-right {
+      right: 0;
+      left: auto;
+      text-align: right;
+      background: linear-gradient(to right, transparent 0%, black 200%);
+    }
+    
+    
+    .item {
+      width: 260px;
+      height: 260px;
+      flex-shrink: 0;
+      transition: all 600ms ease-in-out;
+      opacity: 1;
+    }
+    .photo_member{
+      height: 220px;
+      width: 220px;
+    }
+    .name_member{
+      font-size: 1rem;
+      text-align: center;
+     }
+    .description{
+      font-size: 1rem;
+      text-align: center;
+   }
+   
+   .gallery-wrapper::-webkit-scrollbar {
+     display: none;
+    }
+
+
+  
+}
+
+@media screen  and (max-width:767px){
+    
+  .page_time{
+      height: 120vh;
+  }
+
+  .container {
+      position: fixed;
+      padding: 0px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .gallery-wrapper {
+      overflow-x: auto;
+      display: flex;
+      height: 100vh;
+      flex-flow: row nowrap;
+      justify-content: flex-start;
+      gap: 5px;
+      -ms-overflow-style: none; 
+      scrollbar-width: none; 
+    }
+    
+    .arrow-left,
+    .arrow-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: auto;
+      bottom: 0;
+      font-size: 16px;
+      line-height: 250px;
+      width: 60px;
+      color: #fff;
+      transition: all 600ms ease-in-out;
+      background: linear-gradient(to left, transparent 0%, black 200%);
+      opacity: 0.1;
+      cursor: pointer;
+      border: none;
+      display: block;
+
+    }
+    
+    .arrow-left:hover,
+    .arrow-right:hover {
+      opacity: 1;
+    }
+    
+    .arrow-right {
+      right: 0;
+      left: auto;
+      text-align: right;
+      background: linear-gradient(to right, transparent 0%, black 200%);
+    }
+    
+    
+    .item {
+      width: 260px;
+      height: 260px;
+      flex-shrink: 0;
+      transition: all 600ms ease-in-out;
+      opacity: 1;
+    }
+    .photo_member{
+      height: 200px;
+      width: 200px;
+    }
+    .name_member{
+      font-size: 1rem;
+      text-align: center;
+     }
+    .description{
+      font-size: 1rem;
+      text-align: center;
+   }
+   
+   .gallery-wrapper::-webkit-scrollbar {
+     display: none;
+    }
+
+
+  
+}
