@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./src/css/sobre.css">
     <link rel="stylesheet" href="./src/css/servicos.css">
     <link rel="stylesheet" href="./src/css/time.css">
+    <link rel="stylesheet" href="./src/css/portfolio.css">
     <link rel="stylesheet" href="./src/css/depoimentos.css">
     <link rel="stylesheet" href="./src/css/parceiros.css">
     <link rel="stylesheet" href="./src/css/contact_us.css">
@@ -127,14 +128,37 @@
         </div>
     </section>
 
-    <section class="page_parceiros">
-        <h2 class="title_parceiros title_depoimentos">Parceiros</h2>
-
-        <div class="container_parceiros">
+    <section>
+        <div class="slideshow-container">
+            <h2 class="titulo">Portfólio</h2>
+            <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="./src/img/portifolio-exemplo1.png" style="width:100%">
+            <div class="text">Site BICT</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="./src/img/portifolio-exemplo2.png" style="width:100%">
+            <div class="text">Site Eletronic</div>
+            </div>
+        
+            <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="./src/img/portifolio-exemplo3.png" style="width:100%">
+            <div class="text">Site Google</div>
+            </div>
+        
             
-            <div class="item_parceiros"></div>
-            <div class="item_parceiros"></div>
-
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </section>
 
@@ -188,6 +212,17 @@
             </div>
     
          </div>
+    </section>
+
+    <section class="page_parceiros">
+        <h2 class="title_parceiros title_depoimentos">Parceiros</h2>
+
+        <div class="container_parceiros">
+            
+            <div class="item_parceiros"></div>
+            <div class="item_parceiros"></div>
+
+        </div>
     </section>
 
     <section>
@@ -322,7 +357,8 @@
     </footer>
 
     <script src="./src/js/navbar.js"></script>
-    <script src="./src/js/tela_principal.js"></script>         
+    <script src="./src/js/tela_principal.js"></script>
+    <script src="./src/js/portifolio.js"></script>
     <script src="./src/js/time.js"></script>
 </body>
 </html>
