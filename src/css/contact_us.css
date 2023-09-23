@@ -1,35 +1,37 @@
-.contact{
-  background-color:  #28338C;
+.contact {
+  background-color: #28338C;
   height: 591px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.contact-title{
+
+.contact-title {
   text-align: center;
   font-size: 3rem;
   margin-bottom: 40px;
   color: #ffff;
 }
-.contact-form{
+
+.contact-form {
+  display: flex;
   flex-direction: column;
   gap: 10px;
-  display: flex;
   width: 540px;
   height: 288px;
 }
-::placeholder{
-  align-items: center;
+
+::placeholder {
   font-size: 18px;
 }
-.contact-fields{
+
+.contact-fields {
   display: flex;
   justify-content: space-between;
- 
 }
 
-.contact-fields input{
+.contact-fields input {
   padding: 10px;
   font-size: 1.5rem;
   background-color: white;
@@ -37,7 +39,8 @@
   height: 60px;
   border-radius: 10px;
 }
-.contact-message textarea{
+
+.contact-message textarea {
   width: 100%;
   height: 160px;
   border-radius: 10px;
@@ -45,17 +48,16 @@
   font-size: 1.5rem;
 }
 
-.submit-button{
+.submit-button {
   font-size: 20px;
   color: white;
   height: 60px;
-  width:100% ;
+  width: 100%;
   background-color: black;
   cursor: pointer;
   border-radius: 10px;
-
 }
-.submit-button:hover{
-  transform: scale(1.05);
 
+.submit-button:hover {
+  transform: scale(1.05);
 }
