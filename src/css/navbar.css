@@ -31,6 +31,7 @@ nav {
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
   background: #292e4a;
   height: 8vh;
+  padding: 60px 50px 50px 50px ; 
 }
 
 main {
@@ -114,3 +115,5 @@ main {
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
 }
+
+/* modificações feitas por Duate*/
