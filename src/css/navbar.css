@@ -20,6 +20,7 @@ a:hover {
 
 header {
   position: sticky;
+  z-index: 999;
   top: 0px;
 }
 
@@ -29,9 +30,11 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #292E5E;
+  background: #292e4a;
   height: 8vh;
+  padding: 50px 40px 40px 40px ; 
 }
+
 
 main {
   background: url("bg.jpg") no-repeat center center;
