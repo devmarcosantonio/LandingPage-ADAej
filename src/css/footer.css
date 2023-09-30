@@ -27,6 +27,9 @@ footer {
 
 #links_footer{
 	color: black;
+	text-decoration: none;
+	font-style: italic;
+	
 }
 
 .title_contatos{

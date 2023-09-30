@@ -20,24 +20,21 @@
 
 <body>
     <header>
-        <nav>
-          <a class="logo" href="#id-container-tela-principal">
-            <img src="./src/img/Marca_fundo_escuro_PNG.png" alt="logo-ada" height= "70px">
-          </a>
+        <div id="logo">
+            <img src="src/img/Marca_fundo_escuro_PNG.png" alt="logo da ada">
+        </div>
 
-          <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-          </div>
-          
-          <ul class="nav-list">
-            <li><a href="#Sobre" class="hvr-grow">Sobre</a></li>
-            <li><a href="#Servicos" class="hvr-grow">Serviços</a></li>
-            <li><a href="#Quem" class="hvr-grow">Quem Somos</a></li>
-            <li><a href="#Depoimentos" class="hvr-grow">Depoimentos</a></li>
-            <li><a href="#Contato" class="hvr-grow">Contato</a></li>
-          </ul>
+        <nav id='nav-bar'>
+            <button id="btn-mobile">
+                <span id="hamburguer"></span>
+            </button>
+            <ul id="menu">
+                <li><a href="#Sobre" onclick="handleclickMenu(this)">Sobre</a></li>
+                <li><a href="#Servicos"  onclick="handleclickMenu(this)">Serviços</a></li>
+                <li><a href="#Time"  onclick="handleclickMenu(this)">Time</a></li>
+                <li><a href="#Portfolio" onclick="handleclickMenu(this)">Portfólio</a></li>
+                <li><a href="#Contato" onclick="handleclickMenu(this)">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -51,7 +48,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="Sobre">
         <div class="container-sobrenos">   
             <div class="txt-sobrenos">
                 <h3 class="title">Sobre nós</h3>
@@ -63,7 +60,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="Servicos">
         <div class="title-servicos">
             <b>Serviços</b>
         </div>
@@ -87,7 +84,7 @@
         </div>
     </section>
 
-    <section class="page_time">
+    <section class="page_time" id="Time">
         <h2 class="title_time">Time</h2>
 
         <div class="container_time">
@@ -130,7 +127,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="Portfolio">
         <div class="slideshow-container">
             <h2 class="titulo">Portfólio</h2>
             <div class="mySlides fade">
@@ -164,7 +161,7 @@
         </div>
     </section>
 
-    <section class="page_depoimentos" >
+    <section class="page_depoimentos">
         
         <h2 class="title_depoimentos" id = "id-depoimentos">Depoimentos</h2>
         
@@ -227,7 +224,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="Contato">
         <h2 class="contact-title">Entre em Contato</h2>
         <form class="contact-form">
             <div class="contact-fields">
@@ -253,8 +250,7 @@
         <div class="footer_info">
            
 
-            <a  id ="links_footer" target="_blank" >
-                
+            <a id ="links_footer" target="_blank" href="mailto:adaempresajr@gmail.com">
                 <div class="footer_info_item ">
                     
                     <img id="imga" src="https://img.icons8.com/?size=26&id=499&format=png" alt="">
