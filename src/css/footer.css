@@ -6,7 +6,7 @@ footer {
 
 }
 .footer_info{
-	display: grid;
+	display: flex;
 	justify-content: center;
 	padding: 2rem;
 	
@@ -23,8 +23,6 @@ footer {
 	font-size: 12px;
 	margin-left: 1rem;
 	justify-content: center;
-
-
 }
 
 #links_footer{
@@ -46,3 +44,13 @@ footer {
 	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
 }
 
+#endereco {
+	width: 200px
+}
+
+@media(max-width: 600px) {
+  .footer_info {
+      display: grid;
+			grid-template-columns: 1fr;
+  }
+}
